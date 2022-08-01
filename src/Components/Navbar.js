@@ -36,7 +36,7 @@ const Navbar = () => {
             </div>
             <div className="grid grid-cols-2">
                 <div></div>
-                <div className="grid grid-flow-col gap-2 place-items-center text-[#444444] text-2xl">
+                <div className="grid grid-flow-col -ml-8 gap-2 place-items-center text-[#444444] text-2xl">
                     <a className='hover:scale-110 hover:text-black' href="https://www.instagram.com/jeco_fsd/"><FontAwesomeIcon icon={faInstagram}></FontAwesomeIcon></a>
                     <a className='hover:scale-110 hover:text-black' href="https://twitter.com/BongayJericho"><FontAwesomeIcon icon={faTwitter}></FontAwesomeIcon></a>
                     <a className='hover:scale-110 hover:text-black' href="https://www.linkedin.com/in/jericho-bongay-6193b3195"><FontAwesomeIcon icon={faLinkedin}></FontAwesomeIcon></a>
