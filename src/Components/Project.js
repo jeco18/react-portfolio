@@ -17,7 +17,7 @@ const Project = () => {
                     <a href="https://project1-blush.vercel.app/"><img className='hover:scale-[1.2] duration-[1500ms]' src="img/project2.png" alt="Gadgetsiva" /></a>
                 </div>
                 <div className='overflow-hidden'>
-                    <a href="/project"><img className='hover:scale-[1.2] duration-[1500ms] h-full' src="img/project3.png" alt="TinyUrl" /></a>
+                    <a href="/project"><img className='hover:scale-[1.2] duration-[1500ms]' src="img/project3.png" alt="TinyUrl" /></a>
                 </div>
                 <div className='overflow-hidden'>
                     <a href="/project"><img className='hover:scale-[1.2] duration-[1500ms]' src="img/project4.png" alt="Recipe App" /></a>
