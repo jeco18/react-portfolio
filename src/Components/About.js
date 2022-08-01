@@ -12,7 +12,7 @@ const About = () => {
             <Navbar />
             <h1 className='h-44 text-5xl text-center font-bold mt-20 md:text-9xl md:text-start lg:text-9xl lg:text-start'>About</h1>
             <div className='grid grid-cols-1 gap-12 md:grid-cols-2 lg:grid-cols-2'>
-            <div className='leading-loose md:w-10/12 lg:w-3/5'>
+            <div className='leading-loose md:w-10/12 lg:w-3/5 order-last md:order-none lg:order-none'>
                 <h2 className='font-bold text-xl'>Contact</h2>
                 <p>For any sort of help or inquiries, feel free to send me an <a className='font-bold underline underline-offset-4' href="mailto:bongayjericho@gmail.com">email</a> and I'll get back to you soon.</p>
                 <h2 className='mt-12 font-bold text-xl'>Social Links</h2>
@@ -24,7 +24,7 @@ const About = () => {
                     <a className='hover:scale-110 hover:text-black' href="https://github.com/jeco18"><FontAwesomeIcon icon={faGithub}></FontAwesomeIcon></a>
                 </div>
             </div>
-            <div className='w-full leading-loose mb-52'>
+            <div className='w-full leading-loose md:mb-52 lg:mb-52'>
                 <p>Hello! My name is Jericho and  I enjoy creating things that live on the internet. My interest in web development started back in 2020 during the pandemic. Through watching tons of tutorials, I learned a lot about HTML & CSS.</p> <br />
                 <p>I’ve had the privilege of joining a web development boot camp and enrolled in programming and web development courses to get certificates. My main focus these days is building accessible, inclusive products and digital experiences for a variety of clients.</p>
                 <div className='mt-12'>
