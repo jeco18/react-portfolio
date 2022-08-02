@@ -18,7 +18,7 @@ const Home = () => {
                 <div className='pt-12 text-center order-last md:text-start md:order-first md:pt-40 lg:pt-52 lg:order-first'>
                     <h1 className='text-5xl font-bold'>Full Stack <span className='font-normal'>Developer</span></h1>
                     <p className='mt-4'>"Deleted code is debugged code."</p>
-                    <button className='rounded bg-black text-white px-8 py-2 mt-6 hover:bg-[#171717]'><a href='docs/resume.pdf' rel="noreferrer">Resume</a></button>
+                    <button className='rounded bg-black text-white px-8 py-2 mt-6 hover:bg-[#171717]'><a href='docs/resume.pdf' target="_blank" rel="noreferrer">Resume</a></button>
                 </div>
                 <div className="grid place-items-center bg-black rounded-full h-5/6 w-80 mx-auto">
                     <img className="rounded-3xl w-72" src="img/me3.png" alt="developer"></img>
